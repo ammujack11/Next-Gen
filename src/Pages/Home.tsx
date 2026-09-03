@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
-import { FaLightbulb, FaUserFriends, FaHeadset, FaLaptop } from "react-icons/fa";
+import LightbulbIcon from '@mui/icons-material/Lightbulb';
+import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
+import HeadsetMicIcon from '@mui/icons-material/HeadsetMic';
+import LaptopIcon from '@mui/icons-material/Laptop';
 import ScrollAnimation from "../Components/ScrollAnimation";
 import About from "./About";
 import Team from "./Team";
@@ -29,7 +32,7 @@ function Home() {
 
                 <ScrollAnimation>
                     <div className="shadow-lg shadow-[5px_5px_10px_rgba(0,0,0,0.2)] p-8 flex flex-col gap-3 group hover:bg-amber-500  transition duration-500 ease-in hover:scale-105">
-                        <FaLightbulb className="text-amber-500 text-5xl group-hover:text-white" />
+                        <LightbulbIcon className="text-amber-500 text-5xl group-hover:text-white" />
                         <p className="font-bold group-hover:text-white">Innovative Solutions</p>
                         <p className="text-gray-600 group-hover:text-white">Transforming ideas into smart, scalable digital solutions for your business.</p>
                     </div>
@@ -37,7 +40,7 @@ function Home() {
 
                 <ScrollAnimation>
                     <div className="shadow-lg shadow-[5px_5px_10px_rgba(0,0,0,0.2)] p-8 flex flex-col gap-3 group  hover:bg-amber-500 hover:text-white transition duration-500 ease-in hover:scale-105">
-                        <FaLaptop className="text-amber-500 text-5xl group-hover:text-white" />
+                        <LaptopIcon className="text-amber-500 text-5xl group-hover:text-white" />
                         <p className="font-bold group-hover:text-white">Modern Technology</p>
                         <p className="text-gray-600 group-hover:text-white">Leveraging the latest technologies to build fast and reliable products.</p>
                     </div>
@@ -46,7 +49,7 @@ function Home() {
                 <ScrollAnimation>
                     <div className="shadow-lg shadow-[5px_5px_10px_rgba(0,0,0,0.2)] p-8 flex flex-col gap-3 group 
                   hover:bg-amber-500 hover:text-white transition duration-500 ease-in hover:scale-105">
-                        <FaUserFriends className="text-amber-500 text-5xl group-hover:text-white" />
+                        <PeopleAltIcon className="text-amber-500 text-5xl group-hover:text-white" />
                         <p className="font-bold group-hover:text-white">Expert Team</p>
                         <p className="text-gray-600 group-hover:text-white">Our skilled professionals work together to turn your vision into reality.</p>
                     </div>
@@ -54,7 +57,7 @@ function Home() {
 
                 <ScrollAnimation>
                     <div className="shadow-lg shadow-[5px_5px_10px_rgba(0,0,0,0.2)] p-8 flex flex-col gap-3 group hover:bg-amber-500 hover:text-white transition duration-500 ease-in hover:scale-105">
-                        <FaHeadset className="text-amber-500 text-5xl group-hover:text-white" />
+                        <HeadsetMicIcon className="text-amber-500 text-5xl group-hover:text-white" />
                         <p className="font-bold group-hover:text-white">24/7 Support</p>
                         <p className="text-gray-600 group-hover:text-white">Dependable support to keep your business moving forward.
 </p>

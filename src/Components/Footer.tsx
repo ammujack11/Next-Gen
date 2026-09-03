@@ -1,4 +1,8 @@
-import { FaInstagram, FaTwitter, FaYoutube, FaLinkedin, FaFacebook } from "react-icons/fa";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import FacebookIcon from '@mui/icons-material/Facebook';
 import { Link } from "react-router";
 
 function Footer() {
@@ -11,11 +15,11 @@ function Footer() {
                         Creating <br></br>
                         innovative digital solutions that turn ideas into meaningful experiences.</p>
                     <div className="flex gap-5 text-2xl">
-                        <FaInstagram />
-                        <FaTwitter />
-                        <FaYoutube />
-                        <FaLinkedin />
-                        <FaFacebook />
+                        <InstagramIcon />
+                        <TwitterIcon />
+                        <YouTubeIcon />
+                        <LinkedInIcon />
+                        <FacebookIcon />
 
                     </div>
 

@@ -1,8 +1,10 @@
 import ScrollAnimation from "../Components/ScrollAnimation";
-import { FaInstagram, FaTwitter,FaHandshake  } from "react-icons/fa";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import { Link } from "react-router-dom";
-import { TiTick } from "react-icons/ti";
-import { HiOutlineUsers } from "react-icons/hi";
+import CheckIcon from '@mui/icons-material/Check';
+import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 
 
 interface TeamProps {
@@ -77,8 +79,8 @@ function Team({ showHero = true }: TeamProps) {
                                 </div>
 
                                 <div className="flex text-gray-600 gap-2">
-                                    <FaInstagram />
-                                    <FaTwitter />
+                                    <InstagramIcon />
+                                    <TwitterIcon />
                                 </div>
 
                             </div>
@@ -101,8 +103,8 @@ function Team({ showHero = true }: TeamProps) {
                                 </div>
 
                                 <div className="flex text-gray-600 gap-2">
-                                    <FaInstagram />
-                                    <FaTwitter />
+                                    <InstagramIcon />
+                                    <TwitterIcon />
                                 </div>
 
                             </div>
@@ -123,8 +125,8 @@ function Team({ showHero = true }: TeamProps) {
                                 </div>
 
                                 <div className="flex text-gray-600 gap-2">
-                                    <FaInstagram />
-                                    <FaTwitter />
+                                    <InstagramIcon />
+                                    <TwitterIcon />
                                 </div>
 
                             </div>
@@ -144,8 +146,8 @@ function Team({ showHero = true }: TeamProps) {
                                 </div>
 
                                 <div className="flex text-gray-600 gap-2">
-                                    <FaInstagram />
-                                    <FaTwitter />
+                                    <InstagramIcon />
+                                    <TwitterIcon />
                                 </div>
 
                             </div>
@@ -166,8 +168,8 @@ function Team({ showHero = true }: TeamProps) {
                                 </div>
 
                                 <div className="flex text-gray-600 gap-2">
-                                    <FaInstagram />
-                                    <FaTwitter />
+                                    <InstagramIcon />
+                                    <TwitterIcon />
                                 </div>
 
                             </div>
@@ -185,19 +187,19 @@ function Team({ showHero = true }: TeamProps) {
 
                     <ScrollAnimation animation="animate__zoomIn">
                     <div className="flex flex-col items-center gap-3">
-                        <TiTick className="text-amber-500 text-[30px] hover:text-amber-600"/>
+                        <CheckIcon className="text-amber-500 text-[30px] hover:text-amber-600"/>
                         <p className="text-sm lg:text-[18px] font-semibold whitespace-nowrap">WE'RE HELPFUL</p>
                     </div>
                     </ScrollAnimation>
                         <ScrollAnimation animation="animate__zoomIn">
                     <div className="flex flex-col items-center gap-3">
-                        <HiOutlineUsers className="text-amber-500 text-[30px] hover:text-amber-600"/>
+                        <PeopleAltIcon className="text-amber-500 text-[30px] hover:text-amber-600"/>
                         <p className="text-sm lg:text-[18px] font-semibold whitespace-nowrap">WE'RE FRIENDLY</p>
                     </div>
                     </ScrollAnimation>
                       <ScrollAnimation animation="animate__zoomIn">
                     <div className="flex flex-col items-center gap-3">
-                        <FaHandshake className="text-amber-500 text-[30px] hover:text-amber-600" />
+                        <VolunteerActivismIcon className="text-amber-500 text-[30px] hover:text-amber-600" />
                         <p className="text-sm lg:text-[18px] font-semibold whitespace-nowrap">WE'RE HERE</p>
                     </div>
                     </ScrollAnimation>
