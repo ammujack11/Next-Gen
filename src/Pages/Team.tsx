@@ -70,7 +70,7 @@ function Team({ showHero = true }: TeamProps) {
 
                     <ScrollAnimation>
                         <div className="flex flex-col  h-[280px] rounded-lg shadow-[1px_1px_5px_rgba(0,0,0,0.2)] transition duration-300 ease-in-out hover:-translate-y-2">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxFQZrZidFe-Ta1K6K8KTcyvPJUBn_QY_ArVRlIpuMeA&s=10"
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxFQZrZidFe-Ta1K6K8KTcyvPJUBn_QY_ArVRlIpuMeA&s=10" alt="team member"
                                 className="w-full h-[200px] object-cover rounded"></img>
                             <div className="flex justify-between p-4 items-center">
                                 <div>
@@ -95,7 +95,7 @@ function Team({ showHero = true }: TeamProps) {
                         <div className="flex flex-col  h-[280px] rounded-lg shadow-[1px_1px_5px_rgba(0,0,0,0.2)]
                                             transition duration-300 ease-in-out hover:-translate-y-2">
                             <img src="https://media.istockphoto.com/id/1705503967/photo/confident-businesswoman-in-modern-office.jpg?s=612x612&w=0&k=20&c=_f2sAtCUkBBgKK8oxDnzGs2CLvYBTN5jfOLl1glQ8yw="
-                                className="w-full h-[200px] object-cover rounded"></img>
+                                className="w-full h-[200px] object-cover rounded" alt="team member"></img>
                             <div className="flex justify-between p-4 items-center">
                                 <div>
                                     <p className="font-bold">Lesli Alexander</p>
@@ -117,7 +117,7 @@ function Team({ showHero = true }: TeamProps) {
                         <div className="flex flex-col  h-[280px] rounded-lg shadow-[1px_1px_5px_rgba(0,0,0,0.2)]
                                              transition duration-300 ease-in-out hover:-translate-y-2">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Z5CVARAGruSu3WPn7fzJlrURL1aKYkT4Eoc-wrCmjk-09Hp-d_LBEgc&s=10"
-                                className="w-full h-[200px] object-cover rounded"></img>
+                                className="w-full h-[200px] object-cover rounded" alt="team member"></img>
                             <div className="flex justify-between p-4 items-center">
                                 <div>
                                     <p className="font-bold">Hawins</p>
@@ -138,7 +138,7 @@ function Team({ showHero = true }: TeamProps) {
                         <div className="flex flex-col  h-[280px] rounded-lg shadow-[1px_1px_5px_rgba(0,0,0,0.2)]
                                               transition duration-300 ease-in-out hover:-translate-y-2">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5wk-W2vKE__zfE_MRBzEQ6vntqIZE0YcjoKzJLCpZD9xWV-2KcLYehOMa&s=10"
-                                className="w-full h-[200px] object-cover rounded"></img>
+                                className="w-full h-[200px] object-cover rounded" alt="team member"></img>
                             <div className="flex justify-between p-4 items-center">
                                 <div>
                                     <p className="font-bold">Ronald Richard</p>
@@ -160,7 +160,7 @@ function Team({ showHero = true }: TeamProps) {
                         <div className="flex flex-col  h-[280px] rounded-lg shadow-[1px_1px_5px_rgba(0,0,0,0.2)]
                                                transition duration-300 ease-in-out hover:-translate-y-2">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeTvbLJ9WUPDGgohVRgagIgIxlXJ_95EAVuEq4KzxisDAkEqM7TDRW6_Fa&s=10"
-                                className="w-full h-[200px] object-cover rounded"></img>
+                                className="w-full h-[200px] object-cover rounded" alt="team member"></img>
                             <div className="flex justify-between p-4 items-center">
                                 <div>
                                     <p className="font-bold">Wade Warren</p>

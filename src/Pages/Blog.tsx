@@ -50,7 +50,7 @@ function Blog({ showHero = true }: BlogProps) {
                         <div className="flex flex-col  rounded-lg shadow-lg shadow-[5px_5px_10px_5px_rgba(0,0,0,0.1)] p-5 gap-5 group">
 
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_8qiMCO6SNL4T96SY2ApbcMKSDtKp5s83P9H438iwLRrU3f_0dzT2WY&s=10"
-                                className="w-full h-[150px] rounded object-cover group-hover:scale-105 transition duration-300"></img>
+                                className="w-full h-[150px] rounded object-cover group-hover:scale-105 transition duration-300" alt="Web Development"></img>
                             <p className="text-white bg-amber-500 py-1 px-1 w-[125px] text-sm rounded">Web Development</p>
                             <p className="text-gray-600 text-sm leading-relaxed">Modern web development is changing rapidly with AI, React, cloud technologies, and interactive experiences.
                                 Discover how these technologies are shaping the websites of tomorrow.</p>
@@ -64,7 +64,7 @@ function Blog({ showHero = true }: BlogProps) {
                         <div className="flex flex-col rounded-lg shadow-lg shadow-[5px_5px_10px_5px_rgba(0,0,0,0.1)] p-5 gap-5 group">
 
                             <img src="https://urbeuniversity.edu/post_assets/Le9zsr8bQmv7gmZW40UXiVaPsGcpVwaY65mw28tU.webp"
-                                className="w-full h-[150px] rounded object-cover group-hover:scale-105 transition duration-300"></img>
+                                className="w-full h-[150px] rounded object-cover group-hover:scale-105 transition duration-300" alt="Artificial Intelligence"></img>
                             <p className="text-white bg-amber-500 py-1 px-1 w-[155px] text-sm rounded">Artificial Intelligence</p>
                             <p className="text-gray-600 text-sm leading-relaxed">AI is helping businesses automate tasks, understand customers, and make smarter decisions.
                                 Learn how artificial intelligence can create new opportunities for modern businesses.</p>
@@ -75,7 +75,7 @@ function Blog({ showHero = true }: BlogProps) {
                         <div className="flex flex-col rounded-lg shadow-lg shadow-[5px_5px_10px_5px_rgba(0,0,0,0.1)] p-5 gap-5 group">
 
                             <img src="https://img.magnific.com/free-vector/gradient-ui-ux-elements-background_23-2149056159.jpg?semt=ais_hybrid&w=740&q=80"
-                                className="w-full h-[150px] rounded object-cover group-hover:scale-105 transition duration-300"></img>
+                                className="w-full h-[150px] rounded object-cover group-hover:scale-105 transition duration-300" alt="UI/UX Design"></img>
                             <p className="text-white bg-amber-500 py-1 px-1 w-[125px] text-sm rounded">UI/UX Design</p>
                             <p className="text-gray-600 text-sm leading-relaxed">Users access websites from phones, tablets, and desktops every day. A responsive design ensures your website looks great and works smoothly on every screen.</p>
 
@@ -85,7 +85,7 @@ function Blog({ showHero = true }: BlogProps) {
                         <div className="flex flex-col rounded-lg shadow-lg shadow-[5px_5px_10px_5px_rgba(0,0,0,0.1)] p-5 gap-5 group">
 
                             <img src="https://media.licdn.com/dms/image/v2/C4E12AQE0mORPrwNuYw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1640382254724?e=2147483647&v=beta&t=QZ5KlMefki2dToRIhTno_pxpE_-Rr9ioUoexqZppcDw"
-                                className="w-full h-[150px] rounded object-cover group-hover:scale-105 transition duration-300"></img>
+                                className="w-full h-[150px] rounded object-cover group-hover:scale-105 transition duration-300" alt="Digital Solutions"></img>
                             <p className="text-white bg-amber-500 py-1 px-1 w-[125px] text-sm rounded">Digital Solutions</p>
                             <p className="text-gray-600 text-sm leading-relaxed">A strong digital presence helps businesses connect with customers and build trust. Learn why a professional website and consistent online experience are essential for growth.</p>
 
@@ -94,7 +94,7 @@ function Blog({ showHero = true }: BlogProps) {
                     <ScrollAnimation>
                         <div className="flex flex-col rounded-lg shadow-lg shadow-[5px_5px_10px_5px_rgba(0,0,0,0.1)] p-5 gap-5 group">
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiKFxixG5f-9gOU55ifHexC67KhUL_r1LGRL9w7yv_yg&s=10"
-                                className="w-full h-[150px] rounded object-cover group-hover:scale-105 transition duration-300 "></img>
+                                className="w-full h-[150px] rounded object-cover group-hover:scale-105 transition duration-300 " alt="User Experience"></img>
                             <p className="text-white bg-amber-500 py-1 px-1 w-[125px] text-sm rounded">User Experience</p>
                             <p className="text-gray-600 text-sm leading-relaxed">A great website is not only about appearance. Good UX makes websites easier to navigate, faster to use, and more enjoyable for customers simple, efficient, and engaging.</p>
 
@@ -104,7 +104,7 @@ function Blog({ showHero = true }: BlogProps) {
                         <div className="flex flex-col rounded-lg shadow-lg shadow-[5px_5px_10px_5px_rgba(0,0,0,0.1)] p-5 gap-5 group">
 
                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbdhz4n2PoHZ1tiygQmazDdFFbcetQYTuMZYSX-aDbBjGMbh6vFoA1GqHY&s=10"
-                                className="w-full h-[150px] rounded object-cover group-hover:scale-105 transition duration-300"></img>
+                                className="w-full h-[150px] rounded object-cover group-hover:scale-105 transition duration-300" alt="Technology"></img>
                             <p className="text-white bg-amber-500 py-1 px-1 w-[125px] text-sm rounded">Technology</p>
                             <p className="text-gray-600 text-sm leading-relaxed">Every successful digital product starts with an idea. Explore the journey from planning and design to development, testing, and launching a solution that makes an impact.</p>
 

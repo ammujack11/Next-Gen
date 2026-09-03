@@ -5,7 +5,7 @@ function NavBar() {
         <nav className="fixed top-0 left-0 z-50 flex h-16 w-full justify-between bg-black items-center text-white px-5 lg:px-10">
             <div className="flex items-center">
                 <img src="https://png.pngtree.com/png-vector/20251023/ourmid/pngtree-3d-orange-growth-chart-icon-png-image_17807448.webp"
-                className="h-[42px] w-[65px]"></img>
+                alt ="logo"className="h-[42px] w-[65px]"></img>
                 <p className="text-2xl md:text-3xl font-bold text-amber-500">NextGen</p>
             </div>
 

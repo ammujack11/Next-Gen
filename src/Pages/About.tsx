@@ -37,24 +37,24 @@ function About({ showHero = true }: AboutProps) {
 
 
                         <img src="https://www.haworth.com/content/dam/haworth/spark/photography/2023/q1/4-types-of-collaborative-spaces/2736x1130_4-Types_of_Collaborative-Spaces.jpg"
-                            className="w-full h-[250px] object-cover">
+                            className="w-full h-[250px] object-cover" alt="collaboration">
                         </img>
 
 
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy6Dol8-U7GiWUh6Mtqtm-855bQjAKJLvjllhds5Ix0ImAb19zxaYosAc&s=10"
-                            className="w-full h-[250px] object-cover">
+                            className="w-full h-[250px] object-cover" alt="teamwork">
                         </img>
 
 
 
                         <img src="https://syhzhuelbxgnhopnwjgc.supabase.co/storage/v1/object/public/media/blog/why_does_a_software_company_need_a_professional_services_team_0.jpg"
-                            className="w-full h-[250px] object-cover">
+                            className="w-full h-[250px] object-cover" alt="professional services">
                         </img>
 
 
 
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTOtGxR423uLbzZq7r-zMQYolAgfKkGfB9SRnP6no4NA&s=10"
-                            className="w-full h-[250px] object-cover">
+                            className="w-full h-[250px] object-cover" alt="innovation">
                         </img>
 
 
@@ -75,7 +75,7 @@ function About({ showHero = true }: AboutProps) {
                             <p className="text-[18px] sm:text-[20px] lg:text-[40px] font-bold font-mono">
                                 Welcome to  </p>
                             <img src="https://png.pngtree.com/png-vector/20251023/ourmid/pngtree-3d-orange-growth-chart-icon-png-image_17807448.webp"
-                                className="h-[42px] w-[65px]"></img>
+                                className="h-[42px] w-[65px]" alt="NextGen logo"></img>
                             <span className="text-[15px] sm:text-[20px] lg:text-[40px] font-bold font-mono">NextGen</span>
                         </div>
 
